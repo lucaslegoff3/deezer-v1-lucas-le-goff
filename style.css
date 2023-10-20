@@ -1,0 +1,194 @@
+/* ajout font */
+
+* {
+    font-family: arial;
+}
+
+/* color */
+
+.lightgrey {
+    color: #898989;
+}
+
+.grey {
+    color: #484852;
+}
+
+.promotion {
+    color: #ee5465;
+}
+
+.more-info {
+    color: #57a9cf;
+}
+
+/* éléments */
+
+header {
+    display: flex;  
+}
+
+nav {
+    flex-direction: row;
+}
+
+.enjoy {
+    background-color: #ee5465;
+    color: white;
+}
+
+footer {
+    background-color: black;
+}
+
+.abonnement {
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 20px;
+}
+
+.register {
+    background-color: #2d96c7;
+    color: white;
+}
+
+.deezer-premium {
+    background-color: #2d96c7;
+    color: white;
+    margin: 3px;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+.offer-famille {
+    margin: 3px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.offer-gratuit {
+    margin: 3px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.login {
+    color: #5badd3;
+    background-color: white;
+}
+
+.info-offers {
+    text-align: center;
+    font-size: small;
+    color: #888888;
+    margin: 10px 50px 20px;
+}
+
+.welcome {
+    display: flex;
+}
+
+.img-welcome {
+    align-self: self-end;
+}
+
+.offers-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
+
+.enjoy-music {
+    display: flex;
+    justify-content: center;
+}
+
+.bouton {
+    color: #7a7a81;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sign-up {
+    background-color: #8e8e93;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+}
+
+.always {
+    display: flex;
+    background-color: #ee5465;
+    color: white;
+}
+
+.always-text {
+ flex-direction: column;
+}
+
+.text-welcome {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.what {
+    display: flex;
+    background-color: #f9f9f9;
+ }
+
+.what-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.what-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Enlever les traits dessous + enleve les points de liste */
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.student {
+    padding: 20px;
+    margin: 10px;
+}
+
+.hifi {
+    padding: 20px;
+    margin: 10px;
+}
+
+.annuel {
+    padding: 20px;
+    margin: 10px;
+}
